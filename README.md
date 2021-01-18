@@ -21,6 +21,8 @@ Seguem as questões a serem resolvidas, as respostas devem ser enviadas por e-ma
 
 > 1. Escreva usando a linguagem C uma função para inverter uma string.
 
+
+
 > 2. Dada uma matriz quadrada de dimensão 9, com valores de 1 a 9 em cada célula, escreva um programa que verifique se esta matriz é uma solução válida para o Sudoku (isto é, uma solução é válida no Sudoku se cada linha, cada coluna e cada bloco contém os números de 1 a 9 somente uma vez).
 
         5 3 4 | 6 7 8 | 9 1 2
@@ -36,6 +38,7 @@ Seguem as questões a serem resolvidas, as respostas devem ser enviadas por e-ma
         3 4 5 | 2 8 6 | 1 7 9
 
 
+
 > 3. Escreva uma função que dada uma string composta por substrings separadas por um dado caractere, retorne todas as suas substrings da string original. Por exemplo, dado o separador ‘/’, a string “/Fla/Flu/Bota/” será decomposta em:
         • Fla
         • Flu
@@ -45,6 +48,8 @@ O protótipo da função é o seguinte:
 
 char** stringSplit (const char *text, char separator, int *length);
 
+
+
 > 4. Considere a existência de um tipo abstrato cuja interface é definida da seguinte forma:
 
 typedef struct stack Stack;
@@ -53,15 +58,20 @@ void stackFree (Stack *p);
 void stackPush (Stack *p, int elem);
 int stackPop (Stack *p);
 int stackEmpty (Stack *p);
+
 Escreva uma função que receba uma pilha e retire todos os elementos pares desta pilha. A
 função deve obedecer ao seguinte protótipo:
 void stackRemoveEven (Stack *p);
+
+
 
 > 5. Implemente a seguinte função:
 
 void listPartition(SingleLinkedListOfIntsNode **head, int x);
 
 Onde head é o início de uma lista de inteiros com encadeamento simples que deve ser particionada de forma que todos os valores menores do que x apareçam antes dos valores maiores do que x.
+
+
 
 > 6. Implemente a seguinte função
 
